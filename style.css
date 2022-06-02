@@ -11,7 +11,11 @@ header {
 
 main {
   width: 960px;
-  margin: 50px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
   display: flex;
 }
 
@@ -70,10 +74,31 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0px;
   }
+
+
+header {
+  height: 50px;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  position: relative;
+}
 
 .step-box {
   width: 90%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -86,22 +111,22 @@ footer {
 
 .step-img1 {
   height: 150px;
-  width: 90%;
+  width: auto;
 }
 
 .step-img2 {
   height: 150px;
-  width: 90%;
+  width: auto;
 }
 
 .step-img3 {
   height: 150px;
-  width: 90%;
+  width: auto;
 }
 
 footer {
   height: 50px;
-
+  width: 100%
 }
 
 }
